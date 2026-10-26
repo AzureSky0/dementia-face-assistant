@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Personal data - face photos and people records are never committed
+faces/known/*
+faces/unknown/*
+!faces/known/README.md
+!faces/unknown/README.md
+data/*.xml
+!data/known_faces.example.xml
+
+# PyInstaller build output
+build/
+dist/
+*.spec

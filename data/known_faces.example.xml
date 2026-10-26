@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+  One <person> per photo in faces/known/. The name must match the photo's file name
+  (upper/lower case does not matter): faces/known/Alice.jpg  <->  name="Alice"
+  Copy this file to known_faces.xml (main.py does this for you on first run) and edit it.
+-->
+<knownFaces>
+    <person name="Alice">
+        <relation>Daughter</relation>
+        <affiliation>Family</affiliation>
+        <LastEncounter>Never</LastEncounter>
+    </person>
+    <person name="Bob">
+        <relation>Friend</relation>
+        <affiliation>Neighbour</affiliation>
+        <LastEncounter>Never</LastEncounter>
+    </person>
+    <person name="Carol">
+        <relation>Caregiver</relation>
+        <affiliation>Home care service</affiliation>
+        <LastEncounter>Never</LastEncounter>
+    </person>
+</knownFaces>

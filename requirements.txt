@@ -1,0 +1,7 @@
+opencv-python>=4.5
+mediapipe==0.10.14        # newer releases dropped the "solutions" API used here
+numpy
+Pillow
+face_recognition_models
+setuptools<81             # face_recognition_models still needs pkg_resources
+# face_recognition + dlib are installed separately - see README "Setup"
